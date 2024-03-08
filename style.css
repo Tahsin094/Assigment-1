@@ -91,3 +91,51 @@ ul li{
     width: 500px;
     margin: 50px 75px;
 }
+/* fetured bike area styling */
+
+.fetured-bikes-section{
+    height: 90vh;
+}
+
+
+.fetured-bikes-title{
+    color: black;
+    text-align: center;
+}
+
+
+.fetured-bikes-head{
+    font-size: 50px;
+    font-weight:600;
+    margin: 65px 0px 0px 0px 
+}
+
+.bikes-title{
+    font-size: small;
+    font-weight:550;
+    color:#dc3545;
+}
+
+.bikes-dash{
+    width:78px;
+    margin: auto;
+    text-align: center;
+    border-color: #dc3545;
+    opacity:0.2;
+}
+
+
+.featured-bikes-images {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 100px;
+}
+
+.featured-bike-sample {
+    width: 250px;
+}
+
+.filter{
+    filter: grayscale(100%);
+}
