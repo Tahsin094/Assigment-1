@@ -163,7 +163,7 @@ ul li{
     display: flex;
     justify-content: space-between;
     margin: 100px;
-    gap: 90px;
+    gap: 30px;
 }
 
 .bike-detail-1{
@@ -237,7 +237,7 @@ ul li{
     border-color:#E76F51;
     border-width: 1px;
     border-radius:5px;
-    margin: 136px auto 15px 15px;
+    margin: 95px auto 15px 15px;
     cursor: pointer;
 }
 .summary2-button:hover{
@@ -262,6 +262,14 @@ ul li{
     color: white;
 }
 
+.bike-detail-head{
+    font-size:27px;
+    margin:15px 10px 10px 10px;
+}
+
+.detail-discription{
+    margin:10px;
+}
 /* happy clients section styling */
 
 .happy-client{
