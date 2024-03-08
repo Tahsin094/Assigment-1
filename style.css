@@ -23,6 +23,7 @@
     font-size:16px;
     justify-content: space-between;
     gap:50px;
+    cursor: pointer;
 }
 
 
@@ -44,8 +45,11 @@ ul li{
     font-size: 16px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
-
+.nav-button:hover{
+    background-color: #8b4938;
+}
 /* descripsion banner styling */
 
 .banner-description{
@@ -85,6 +89,11 @@ ul li{
     background-color: #E76F51;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.title-button:hover{
+    background-color: #8b4938;
 }
 
 .banner-avatar{
@@ -97,17 +106,25 @@ ul li{
     height: 90vh;
 }
 
+.fetured-bikes-head{
+    text-align: center;
+}
+.bikes-title{
+    text-align: center;
+}
+
 
 .fetured-bikes-title{
     color: black;
-    text-align: center;
+
 }
 
 
 .fetured-bikes-head{
     font-size: 50px;
     font-weight:600;
-    margin: 65px 0px 0px 0px 
+    margin: 65px 0px 0px 0px;
+    align-items: center;
 }
 
 .bikes-title{
@@ -138,4 +155,106 @@ ul li{
 
 .filter{
     filter: grayscale(100%);
+}
+
+/* latest news styling */
+
+.latest-news{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    gap: 90px;
+}
+
+.bike-detail-1{
+    display: flex;
+    width: 300px;
+}
+
+.bike-detail-2{
+    display: flex;
+    width:300px;
+}
+.bike-detail-3{
+    display: flex;
+    width: 300px;
+}
+
+.bike-summary1{
+    padding:10px 10px 0px 10px;
+    height:100%;
+    width:100%;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 4px;
+}
+
+.bike-summary2{
+    padding:10px 10px 0px 10px;
+    height:100%;
+    width:100%;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 4px;
+}
+
+
+.bike-summary3{
+    padding:10px 10px 0px 10px;
+    height:100%;
+    width:100%;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 4px;
+}
+
+.latest-nest-caption{
+    text-align: center;
+    font-size: 50px;
+    font-weight:500;
+}
+
+.summary1-button{
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color:white;
+    color: #E76F51;
+    border-style: solid;
+    border-color:#E76F51;
+    border-width: 1px;
+    border-radius:5px;
+    margin: 112px auto 15px 15px;
+}
+.summary1-button:hover{
+    background-color: #E76F51;
+    color: white;
+}
+
+.summary2-button{
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color:white;
+    color: #E76F51;
+    border-style: solid;
+    border-color:#E76F51;
+    border-width: 1px;
+    border-radius:5px;
+    margin: 136px auto 15px 15px;
+}
+.summary2-button:hover{
+    background-color: #E76F51;
+    color: white;
+}
+
+.summary3-button{
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color:white;
+    color: #E76F51;
+    border-style: solid;
+    border-color:#E76F51;
+    border-width: 1px;
+    border-radius:5px;
+    margin: 90px auto 15px 15px;
+}
+.summary3-button:hover{
+    background-color: #E76F51;
+    color: white;
 }
