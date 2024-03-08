@@ -221,6 +221,7 @@ ul li{
     border-width: 1px;
     border-radius:5px;
     margin: 112px auto 15px 15px;
+    cursor: pointer;
 }
 .summary1-button:hover{
     background-color: #E76F51;
@@ -237,6 +238,7 @@ ul li{
     border-width: 1px;
     border-radius:5px;
     margin: 136px auto 15px 15px;
+    cursor: pointer;
 }
 .summary2-button:hover{
     background-color: #E76F51;
@@ -253,6 +255,7 @@ ul li{
     border-width: 1px;
     border-radius:5px;
     margin: 90px auto 15px 15px;
+    cursor: pointer;
 }
 .summary3-button:hover{
     background-color: #E76F51;
@@ -262,7 +265,7 @@ ul li{
 /* happy clients section styling */
 
 .happy-client{
-    height: 100vh;
+    height: 120vh;
 }
 
 
@@ -328,4 +331,109 @@ ul li{
     font-weight: 500;
     padding:0px 0px 10px 0px;
     margin-top: 35px;
+}
+
+
+/* quis section img styling */
+
+.service-section{
+}
+
+.service-photo{
+    width:30vh;
+}
+
+.service-photo3{
+    width:50vh;
+}
+
+.service-photo4{
+    width: 52vh;
+}
+
+.service-photo5{
+    width:50vh;
+}
+
+.service-photo6{
+    width:50vh;
+}
+
+.service-photo2{
+    width:20vh;
+}
+
+.service-heading{
+    text-align: center;
+    font-size: 50px;
+    margin:50px 200px;
+}
+
+.about-service{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 100px;
+    gap:50px
+}
+
+.service-coloring{
+    color: #E76F51;
+}
+
+.service-detail1{
+    width:150vh;
+    height:70vh;
+    border: 1px solid rgb(229, 222, 222);
+    align-items:center;
+    text-align: center;
+    padding:45px;
+}
+.service-detail2{
+    width:150vh;
+    height:70vh;
+    border: 1px solid rgb(229, 222, 222);
+    padding: 45px;
+    align-items: center;
+    text-align: center;
+}
+.service-detail3{
+    width:150vh;
+    height:70vh;
+    border: 1px solid rgb(229, 222, 222);
+    padding: 45px;
+    align-items: center;
+    text-align: center;
+}
+.service-detail4{
+    width:150vh;
+    height:87vh;
+    border: 1px solid rgb(229, 222, 222);
+    padding: 0px 5px;
+    align-items: center;
+    text-align: center;
+}
+.service-detail5{
+    width:150vh;
+    height:87vh;
+    border: 1px solid rgb(229, 222, 222);
+    padding: 0px 5px;
+    align-items: center;
+    text-align: center;
+}
+.service-detail6{
+    width:150vh;
+    height:87vh;
+    border: 1px solid rgb(229, 222, 222);
+    padding: 0px 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.service-coloring2{
+    color: #E76F51;
+    margin:15px 0;
+}
+
+.services{
+    padding:50px;
 }
