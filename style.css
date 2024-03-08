@@ -509,3 +509,67 @@ textarea {
     font-size: 19px;
     font-weight: 400;
   }
+
+  /* footer styling */
+
+  footer{
+    background-color: #212529;
+    color: white;
+    flex-direction: column;
+    height:40vh;
+  }
+
+  .footer-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+  }
+
+  .footer-parent2{
+    margin-top:50px;
+    line-height:35px;
+  }
+
+  .footer-head-title{
+    display: flex;
+    gap:50px;
+    font-size: 16px;
+  }
+
+  .footer-body-title{
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    margin-left:5px;
+  }
+
+  .app-store-logo{
+    width:130px;
+    height:auto;
+    border:1px solid white;
+    border-radius: 5px;
+    margin:5px 0
+
+  }
+  .google-play-logo{
+    width:130px;
+    height:auto;
+    border:1px solid white;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+
+  .image-div{
+    display: flex;
+    flex-direction:column;
+  }
+
+  .body-logo{
+    margin-top: 50px;
+  }
+
+  .logo-title{
+    font-size:20px;
+    font-weight:500;
+    margin:8px 0;
+  }
