@@ -50,6 +50,7 @@ ul li{
 .nav-button:hover{
     background-color: #8b4938;
 }
+/* nav section styling end here */
 /* descripsion banner styling */
 
 .banner-description{
@@ -100,6 +101,7 @@ ul li{
     width: 500px;
     margin: 50px 75px;
 }
+/* discription banner section styling end here */
 /* fetured bike area styling */
 
 .fetured-bikes-section{
@@ -157,6 +159,7 @@ ul li{
     filter: grayscale(100%);
 }
 
+/* fetured bike area styling end here */
 /* latest news styling */
 
 .latest-news{
@@ -270,6 +273,8 @@ ul li{
 .detail-discription{
     margin:10px;
 }
+
+/* latest news styling end here */
 /* happy clients section styling */
 
 .happy-client{
@@ -342,7 +347,8 @@ ul li{
 }
 
 
-/* quis section img styling */
+/* happy clients section styling end here  */
+/* service section styling*/
 
 .service-section{
 }
@@ -445,7 +451,7 @@ ul li{
 .services{
     padding:50px;
 }
-
+/* service section styling end here*/
 /* contact form stying */
 
 .feedback-form {
@@ -518,6 +524,7 @@ textarea {
     font-weight: 400;
   }
 
+  /* contact form stying end here */
   /* footer styling */
 
   footer{
@@ -581,3 +588,4 @@ textarea {
     font-weight:500;
     margin:8px 0;
   }
+  /* footer styling end here */
