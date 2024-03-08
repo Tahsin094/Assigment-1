@@ -437,3 +437,75 @@ ul li{
 .services{
     padding:50px;
 }
+
+/* contact form stying */
+
+.feedback-form {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    width: 50%;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+input,
+textarea {
+    height: 9vh;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 15vh;
+}
+
+.submit-button{
+    background-color:#E76F51;
+    color: white;
+    padding: 10px 155px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+}
+
+
+
+.form-head{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.end-dash{
+    width: 50px;
+    margin: auto;
+    border-color:#E76F51;
+}
+
+.contact-form{
+    height: 100vh;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+    font-family: "Inria Serif", serif;
+    font-weight: 600;
+    font-size: 19px;
+    font-weight: 400;
+  }
